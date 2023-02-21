@@ -43,12 +43,7 @@ app.get('/', (req, res) => {
       })
 
     });
-   app.get('/models', async (req, res) => {
-    const response = await openai.listModels();
-    res.json({
-      message: response.data,
-    });
-  });
+   
   
 
 app.use('/user',userRoutes)
