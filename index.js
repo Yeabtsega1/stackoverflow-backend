@@ -12,7 +12,7 @@ import bodyparser from 'body-parser';
 
 const configuration = new Configuration({
     organization: "org-eMpRfwAD3OY5WnJHSdREeNgI",
-    apiKey: "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",
+    apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 
